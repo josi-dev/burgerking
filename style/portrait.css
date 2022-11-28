@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#conteudoBack {
+    position: absolute;
+    height: 60vh;
+}
+#background {
+    height: 60vh;
+    background-image: url('https://media.istockphoto.com/id/1254672762/photo/delicious-homemade-hamburger-and-french-fries.jpg?b=1&s=170667a&w=0&k=20&c=a0kPiHhzTncW-_LdM7cXcLiB9KLXuEb8KAJt7AlVuO0=');
+    background-size: cover;
+}
+h1,h2 {
+    text-align: center;
+    border: 1px solid red;
+    width: 100%;
+}
+h1,#conteudoBack h2 {
+    margin-top: 8%;
+    color: #ffdd2a;
+}
+button {
+    font-size: 105%;
+    padding: 2% 5% 2% 5%;
+    margin-left: 33%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10%;
+    background-color: #ffa940;
+}
+#conteudo {
+    background-image: url('https://img.freepik.com/fotos-premium/textura-de-fundo-madeira_124507-6931.jpg?w=2000');
+    background-size: cover;
+    height: 60vh;
+}
+#boxProdutos {
+    display: flex;
+    overflow-x: scroll;
+}
+#boxProdutos img {
+    margin-left: 5%;
+}
+#thumb {
+    display: grid;
+    text-align: center;
+    height: 30vh;
+    width: 45vw;
+    margin-left: 27%;
+}
+#precoAndroid {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 140%;
+}
